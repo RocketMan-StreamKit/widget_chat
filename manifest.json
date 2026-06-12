@@ -1,0 +1,25 @@
+{
+  "name": {
+    "en": "Stream Chat",
+    "ru": "Чат трансляции",
+    "uk": "Чат трансляції"
+  },
+  "description": {
+    "en": "Live chat overlay for OBS. Shows incoming stream chat with customizable layout, fonts, and themes.",
+    "ru": "Оверлей чата для OBS. Показывает сообщения трансляции с настройкой шрифтов, тем и макета.",
+    "uk": "Оверлей чату для OBS. Показує повідомлення трансляції з налаштуванням шрифтів, тем і макету."
+  },
+  "type": "widget",
+  "version": "1.0.0",
+  "author": "StreamKit+",
+  "icon": "logo.svg",
+  "web": "index.html",
+  "web_type": "widget",
+  "web_contents": ["style.css", "main.js", "logo.svg"],
+  "permissions": [
+    "WEB_CONTENT",
+    "WEB_END_POINTS",
+    "SOCKET_END_POINTS",
+    "DASHBOARD_CHAT_INCOMING"
+  ]
+}
