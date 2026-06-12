@@ -1,4 +1,5 @@
 {
+  "id": "widget_chat",
   "name": {
     "en": "Stream Chat",
     "ru": "Чат трансляции",
@@ -15,7 +16,11 @@
   "icon": "logo.svg",
   "web": "index.html",
   "web_type": "widget",
-  "web_contents": ["style.css", "main.js", "logo.svg"],
+  "web_contents": [
+    "style.css",
+    "main.js",
+    "logo.svg"
+  ],
   "permissions": [
     "WEB_CONTENT",
     "WEB_END_POINTS",
